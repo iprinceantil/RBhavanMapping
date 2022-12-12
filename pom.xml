@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>RBhavanMapping</groupId>
+  <artifactId>RBhavanMapping</artifactId>
+  <version>0.0.1</version>
+  
+  <properties>
+		<!-- JDK version properties start -->
+		<maven.compiler.source>18</maven.compiler.source>
+		<maven.compiler.target>18</maven.compiler.target>
+		<!-- JDK version properties end -->
+		<!-- Dependency versions start -->
+		<SELENIUM-JAVA.VERSION>4.1.2</SELENIUM-JAVA.VERSION>
+		<WEBDRIVERMANAGER.VERSION>5.1.0</WEBDRIVERMANAGER.VERSION>
+		<TESTNG.VERSION>7.5</TESTNG.VERSION>
+		<RESTASSURED.VERSION>4.5.1</RESTASSURED.VERSION>
+		<!-- Dependency versions start -->
+	</properties>
+	<dependencies>
+		<!-- Selenium dependencies -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${SELENIUM-JAVA.VERSION}</version>
+		</dependency>
+		<!-- Web-driver Manager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>${WEBDRIVERMANAGER.VERSION}</version>
+		</dependency>
+		<!-- TestNG dependencies -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${TESTNG.VERSION}</version>
+		</dependency>
+		<!-- Rest Assured -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>${RESTASSURED.VERSION}</version>
+		</dependency>
+	</dependencies>
+  
+</project>
